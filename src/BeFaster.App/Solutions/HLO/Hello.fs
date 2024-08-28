@@ -3,5 +3,6 @@
 open System
 
 module Hello =
-    let hello(friendName: string): string = "Hello, World!"
+    let hello(friendName: string): string = "Hello, "+friendName+"!"
+
 
